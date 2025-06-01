@@ -1,0 +1,8 @@
+# roles/common_packages/defaults/main.yml
+
+common_packages:
+  - git
+  - unzip
+  - htop
+  - python3
+  - python3-pip

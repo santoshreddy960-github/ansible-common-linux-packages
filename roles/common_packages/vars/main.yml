@@ -1,0 +1,2 @@
+ubuntu_package_manager: apt
+amazon_package_manager: yum

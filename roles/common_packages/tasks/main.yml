@@ -1,0 +1,4 @@
+# roles/common_packages/tasks/main.yml
+
+- name: Include OS-specific tasks
+  include_tasks: "{{ ansible_os_family | lower }}.yml"

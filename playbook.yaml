@@ -1,0 +1,6 @@
+- name: Install common packages on all nodes
+  hosts: all
+  become: yes
+
+  roles:
+    - common_packages
